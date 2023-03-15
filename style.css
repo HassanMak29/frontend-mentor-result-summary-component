@@ -183,7 +183,7 @@ button {
   background-color: hsla(0, 100%, 67%, 0.05);
 }
 
-.reaction-component h3 {
+.reaction-component p {
   color: var(--lightred);
 }
 
@@ -191,7 +191,7 @@ button {
   background-color: hsl(39, 100%, 56%, 0.05);
 }
 
-.memory-component h3 {
+.memory-component p {
   color: var(--orangeyyellow);
 }
 
@@ -199,7 +199,7 @@ button {
   background-color: hsl(166, 100%, 37%, 0.05);
 }
 
-.verbal-component h3 {
+.verbal-component p {
   color: var(--greenteal);
 }
 
@@ -207,7 +207,7 @@ button {
   background-color: hsl(234, 85%, 45%, 0.05);
 }
 
-.visual-component h3 {
+.visual-component p {
   color: var(--cobaltblue);
 }
 
