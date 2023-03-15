@@ -126,7 +126,7 @@ button {
   color: hsla(0, 0%, 100%, 0.25);
 }
 
-.result-detail h3 {
+.result-detail span {
   font-size: 3rem;
   margin-bottom: 2rem;
 }
@@ -183,7 +183,7 @@ button {
   background-color: hsla(0, 100%, 67%, 0.05);
 }
 
-.reaction-component h4 {
+.reaction-component h3 {
   color: var(--lightred);
 }
 
@@ -191,7 +191,7 @@ button {
   background-color: hsl(39, 100%, 56%, 0.05);
 }
 
-.memory-component h4 {
+.memory-component h3 {
   color: var(--orangeyyellow);
 }
 
@@ -199,7 +199,7 @@ button {
   background-color: hsl(166, 100%, 37%, 0.05);
 }
 
-.verbal-component h4 {
+.verbal-component h3 {
   color: var(--greenteal);
 }
 
@@ -207,7 +207,7 @@ button {
   background-color: hsl(234, 85%, 45%, 0.05);
 }
 
-.visual-component h4 {
+.visual-component h3 {
   color: var(--cobaltblue);
 }
 
