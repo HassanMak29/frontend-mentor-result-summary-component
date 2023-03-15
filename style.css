@@ -1,0 +1,259 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap");
+
+:root {
+  --lightred: hsl(0, 100%, 67%);
+  --orangeyyellow: hsl(39, 100%, 56%);
+  --greenteal: hsl(166, 100%, 37%);
+  --cobaltblue: hsl(234, 85%, 45%);
+
+  --lightslateblue: hsl(252, 100%, 67%);
+  --lightroyalblue: hsl(241, 81%, 54%);
+
+  --violetblue: hsla(256, 72%, 46%, 1);
+  --persianblue: hsla(241, 72%, 46%, 0);
+
+  --white: hsl(0, 0%, 100%);
+  --paleblue: hsl(221, 100%, 96%);
+  --lightlavender: hsl(241, 100%, 89%);
+  --darkgrayblue: hsl(224, 30%, 27%);
+
+  --p-font-size: 1.5rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62%;
+}
+
+body {
+  font-family: "Hanken Grotesk", sans-serif;
+  height: 100vh;
+}
+
+main {
+  background-color: var(--white);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+button {
+  width: 100%;
+  background-color: var(--darkgrayblue);
+  color: var(--paleblue);
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  padding: 1.5rem 3rem;
+  border: none;
+  border-radius: 2rem;
+}
+
+.component {
+  width: 63rem;
+  max-width: 55%;
+  border-radius: 2rem;
+  box-shadow: 0px 23px 35px 9px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 23px 35px 9px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 23px 35px 9px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  display: flex;
+}
+
+.left {
+  width: 50%;
+  height: 100%;
+  border-radius: 2rem;
+  background-image: linear-gradient(
+    var(--lightslateblue),
+    var(--lightroyalblue)
+  );
+  padding: 3.5rem 5rem;
+  text-align: center;
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.right {
+  width: 50%;
+  height: 100%;
+  padding: 3.5rem 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.result-title {
+  color: hsla(0, 0%, 100%, 0.45);
+  font-size: 2rem;
+}
+
+.result {
+  border-radius: 50%;
+  height: 17rem;
+  width: 17rem;
+  background-image: linear-gradient(
+    var(--violetblue),
+    rgba(78, 33, 202, 0.115)
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.result h1 {
+  font-size: 6rem;
+}
+
+.result span {
+  font-size: 1.2rem;
+  color: hsla(0, 0%, 100%, 0.25);
+}
+
+.result-detail h3 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.result-detail p {
+  font-size: var(--p-font-size);
+  color: hsla(0, 0%, 100%, 0.45);
+}
+
+.summary-title {
+  text-transform: capitalize;
+  color: var(--darkgrayblue);
+  font-size: 2rem;
+  margin-bottom: 2.5rem;
+}
+
+.summary-details {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-bottom: 4.3rem;
+}
+
+.summary-details > div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.3rem 1.5rem;
+  border-radius: 1rem;
+}
+
+.result-component {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.indicator-title {
+  font-size: 1.7rem;
+}
+
+.mark {
+  font-size: 1.7rem;
+  color: #bbb;
+}
+
+.dark {
+  color: var(--darkgrayblue);
+}
+
+.reaction {
+  background-color: hsla(0, 100%, 67%, 0.05);
+}
+
+.reaction-component h4 {
+  color: var(--lightred);
+}
+
+.memory {
+  background-color: hsl(39, 100%, 56%, 0.05);
+}
+
+.memory-component h4 {
+  color: var(--orangeyyellow);
+}
+
+.verbal {
+  background-color: hsl(166, 100%, 37%, 0.05);
+}
+
+.verbal-component h4 {
+  color: var(--greenteal);
+}
+
+.visual {
+  background-color: hsl(234, 85%, 45%, 0.05);
+}
+
+.visual-component h4 {
+  color: var(--cobaltblue);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  color: var(--darkgrayblue);
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (max-width: 375px) {
+  body {
+    height: 100%;
+  }
+
+  main {
+    height: 100%;
+  }
+
+  .component {
+    flex-direction: column;
+    width: 100%;
+    max-width: none;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+  }
+
+  .left {
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+  }
+
+  .right {
+    width: 100%;
+  }
+
+  .attribution {
+    display: none;
+  }
+} ;
