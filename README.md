@@ -18,11 +18,12 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 ### Screenshot
 
 ![](./screenshot.jpg)
+![](./screenshot-mobile.jpg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/HassanMak29/frontend-mentor-result-summary-component)
-- Live Site URL: [Add live site URL here](https://frontend-mentor-result-summary-hassan.netlify.app/)
+- Solution URL: [Solution URL](https://github.com/HassanMak29/frontend-mentor-result-summary-component)
+- Live Site URL: [Live site URL](https://frontend-mentor-result-summary-hassan.netlify.app/)
 
 ## My process
 
@@ -39,7 +40,7 @@ Mostly practice about what I already know.
 
 ### Continued development
 
-I want to make myself strong in vanilla css before moving to sass, less, tailwind css and others
+I want to make myself strong in vanilla css before moving to sass, less, tailwind css and styling technologies
 
 ## Author
 
